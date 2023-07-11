@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "mass-enqueue:dev": "./bin/mass-enqueue.sh -env dev -t e2e -wcv rc",
+    "mass-enqueue:staging": "./bin/mass-enqueue.sh -env staging -t e2e -wcv rc",
+    "mass-enqueue:prod": "./bin/mass-enqueue.sh -env prod -t e2e -wcv latest",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.28.0",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "@wordpress/env": "^4.9.0",
+    "allure-commandline": "^2.18.1",
+    "allure-playwright": "^2.0.0-beta.18",
+    "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
