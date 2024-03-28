@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "allure-commandline": "^2.25.0",
+    "allure-playwright": "^2.10.0",
+    "uuid": "^9.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "regenerator-runtime": "^0.14.0"
+  }
+}

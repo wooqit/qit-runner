@@ -1,0 +1,8 @@
+.side-nav__brand {
+  background: url("woocommerce_logo.png") no-repeat !important;
+  background-size: 151px 104px !important;
+  padding-left: 180px !important;
+  line-height: 104px !important;
+  margin-left: 13px;
+  pointer-events: none;
+}
